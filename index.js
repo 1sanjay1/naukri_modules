@@ -1,1 +1,4 @@
-module.exports = () => console.log('yeh boyeeeeeeeeeeeee');
+const add = require('./add');
+const subtract = require('./subtract');
+
+module.exports = { add: add, subtract: subtract };
